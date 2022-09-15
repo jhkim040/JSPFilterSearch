@@ -35,12 +35,12 @@ public class emailIdDAO {
     final String bodyEncoding = "UTF-8"; //콘텐츠 인코딩
     
     String subject = "<VARCHAR> 비밀번호 찾기 안내";
-    String fromEmail = "yimhw77@naver.com";
+    String fromEmail = "";
     String fromUsername = "<VARCHAR>"; 
     String toEmail = mvo.getMemail(); // 콤마(,)로 여러개 나열
     
-    final String username = "yimhw7@gmail.com";//구글 계정    
-    final String password = "uwuyeyklrilaazqz";//발급받은 앱 비밀번호
+    final String username = "";//구글 계정    
+    final String password = "";//발급받은 앱 비밀번호
     
     // 메일에 출력할 텍스트
     StringBuffer sb = new StringBuffer();
