@@ -19,7 +19,7 @@ public class sendDAO{
 			
 		HashMap<String, String> params = new HashMap<String, String>();
 	    params.put("to", vo.getPhone() );    // 수신전화번호 
-	    params.put("from", "01097020992");   // 발신번호 - 인증키 받은사람 번호 (수정하면 안됨) 
+	    params.put("from", "여기에 전화번호(숫자만)");   // 발신번호 - 인증키 받은사람 번호 (수정하면 안됨) 
 	    params.put("type", "sms"); 
 	    params.put("text", "<VARCHAR> 인증번호는 [" + randomNumber + "] 입니다."
 	    				+ "해당 인증번호를 인증번호 확인란에 기입하여 주세요.");
