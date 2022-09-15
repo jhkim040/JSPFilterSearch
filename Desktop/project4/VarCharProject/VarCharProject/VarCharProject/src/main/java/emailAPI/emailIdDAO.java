@@ -34,7 +34,7 @@ public class emailIdDAO {
     // 메일 인코딩
     final String bodyEncoding = "UTF-8"; //콘텐츠 인코딩
     
-    String subject = "<VARCHAR> 비밀번호 찾기 안내";
+    String subject = "<VARCHAR>  찾기 안내";
     String fromEmail = "";
     String fromUsername = "<VARCHAR>"; 
     String toEmail = mvo.getMemail(); // 콤마(,)로 여러개 나열
